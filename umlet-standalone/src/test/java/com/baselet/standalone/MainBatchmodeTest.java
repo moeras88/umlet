@@ -110,6 +110,7 @@ public class MainBatchmodeTest {
 			fw.close();
 			return output;
 		} finally {
+			fr.close();
 			if (br != null) {
 				br.close();
 			}
